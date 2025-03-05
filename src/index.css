@@ -4,3 +4,6 @@
 #tasklist::-webkit-scrollbar{
     display: none;
 }
+#a::-webkit-scrollbar{
+    display: none;
+}
