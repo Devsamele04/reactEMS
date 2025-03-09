@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const AuthProvider = ({children}) => {
-  return (
-    <div>{children}</div>
-  )
-}
+const AuthProvider = ({ children }) => {
+  return <div>{children}</div>;
+};
 
-export default AuthProvider
+export default AuthProvider;
