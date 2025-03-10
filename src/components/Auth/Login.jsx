@@ -27,6 +27,7 @@ const Login = ({ handleLogin }) => {
             className="flex flex-col items-center justify-center "
           >
             <h2 className="font-semibold text-2xl mb-5">Login User</h2>
+            
             <input
               value={email}
               onChange={(e) => {
@@ -37,6 +38,7 @@ const Login = ({ handleLogin }) => {
               type="email"
               placeholder="Enter your email"
             />
+
             <input
               value={password}
               onChange={(e) => {
