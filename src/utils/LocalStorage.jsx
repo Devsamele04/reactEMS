@@ -6,9 +6,9 @@ const employees = [
     password: "123",
     taskNumbers: {
       active: 1,
-      newTask: 0,
+      newTask: 1,
       completed: 1,
-      failed: 0
+      failed: 1,
     },
     tasks: [
       {
@@ -30,6 +30,26 @@ const employees = [
         newTask: false,
         completed: true,
         failed: false,
+      },
+      {
+        title: "Team meeting",
+        description: "Attend the weekly team meeting",
+        date: "2025-03-08",
+        category: "Meetings",
+        active: false,
+        newTask: true,
+        completed: false,
+        failed: false,
+      },
+      {
+        title: "Team meeting",
+        description: "Attend the weekly team meeting",
+        date: "2025-03-08",
+        category: "Meetings",
+        active: false,
+        newTask: false,
+        completed: false,
+        failed: true,
       },
     ],
   },
@@ -94,12 +114,12 @@ const employees = [
   {
     id: 4,
     firstname: "Ananya",
-    email: "employee4@example.com",
+    email: "employee4@gmail.com",
     password: "123",
     taskNumbers: {
       active: 1,
       newTask: 1,
-      completed: 0,
+      completed: 1,
       failed: 0
     },
     tasks: [
@@ -108,7 +128,17 @@ const employees = [
         description: "Revise API documentation for the latest release",
         date: "2025-03-12",
         category: "Documentation",
-        active: true,
+        active: false,
+        newTask: true,
+        completed: false,
+        failed: false,
+      },
+      {
+        title: "Update documentation",
+        description: "Revise API documentation for the latest release",
+        date: "2025-03-12",
+        category: "Documentation",
+        active: false,
         newTask: true,
         completed: false,
         failed: false,
@@ -118,7 +148,7 @@ const employees = [
   {
     id: 5,
     firstname: "Vikram",
-    email: "employee5@example.com",
+    email: "employee5@gmail.com",
     password: "123",
     taskNumbers: {
       active: 1,
@@ -135,6 +165,16 @@ const employees = [
         active: false,
         newTask: false,
         completed: true,
+        failed: false,
+      },
+      {
+        title: "Write blog post",
+        description: "Draft a new article for company blog",
+        date: "2025-03-13",
+        category: "Marketing",
+        active: true,
+        newTask: true,
+        completed: false,
         failed: false,
       },
       {
