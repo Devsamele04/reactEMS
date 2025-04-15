@@ -16,7 +16,7 @@ const Login = ({ handleLogin }) => {
   return (
     <div className=" h-screen w-screen bg-[#1c1c1c] text-white relative">
       <h2 className="text-center text-3xl absolute top-[14%] left-[36%] text-yellow-500 font-bold uppercase">
-        Employe Management App
+        Employee Management App
       </h2>
       <div className="flex items-center justify-center h-[95%]">
         <div className="border-2 rounded-xl border-green-600 p-20 w-1/2 ">
